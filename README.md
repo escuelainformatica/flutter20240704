@@ -9,8 +9,12 @@
    * double: decimal
    * String: texto
    * bool: booleano (true o false)
-   * list: listado
-   * map: define un arreglo (diccionario)
+   * List: listado
+       *  var paises=["Chile","Argentina","Peru"]; // en algunos casos define un List<dynamic>
+       *  List<String> paises=["Chile","Argentina","Peru"]; 
+   * Map: define un arreglo (diccionario)
+       *  var producto={"nombre":"cocacola","precio":200};
+       *  Map<String,dynamic> producto={"nombre":"cocacola","precio":200};
    * dynamic: un tipo de dato variable
    * objetos
 * Si el tipo de dato termina con un simbolo de pregunta: "int?" entonces el valor admite nulo. 
@@ -40,7 +44,6 @@ void main() {
   dynamic vardin="222";
   print(paises);
   print(cliente);
-  print(vardin);
-  
+  print(vardin);  
 }
 ```
