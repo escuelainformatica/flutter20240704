@@ -1,5 +1,21 @@
 # flutter20240704
 
+# variables:
+* Para definir una variable se escribe lo siguiente:
+   * **tipodedato** **nombrevariable**= **opcionalmente el valor**;
+   * var **nombrevariable**=**valor**
+* Tipos de datos:
+   * int: entero
+   * double: decimal
+   * String: texto
+   * bool: booleano (true o false)
+   * list: listado
+   * map: define un arreglo (diccionario)
+   * dynamic: un tipo de dato variable
+   * objetos
+* Si el tipo de dato termina con un simbolo de pregunta: "int?" entonces el valor admite nulo. 
+  
+
 ```dart
 void main() {
   int numero1=20;
