@@ -106,4 +106,25 @@ void main() {
   
 }
 ```
+# constructores y clases
 
+```dart
+class Cliente {
+  // campos
+  String nombre;
+  String apellido;
+  String direccion;
+  int edad;
+  
+  Cliente(this.nombre,this.apellido,this.direccion,this.edad);
+  Cliente.solonombre(this.nombre,this.apellido):
+    this.direccion="",
+    this.edad=0; 
+}
+
+void main() {
+  var cli=Cliente("john","doe","sunset",200);
+  var cli2=Cliente.solonombre("anna","smith");
+  
+}
+```
