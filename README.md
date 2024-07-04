@@ -47,3 +47,20 @@ void main() {
   print(vardin);  
 }
 ```
+## clases
+* Para definir una clase, se ocupa la siguiente notacion:  class **nombre** { }
+* Las clases no necesariamente tienen que ir dentro de un archivo separado.
+* Las clases se recomiendan que partan en mayuscula.
+   * Ejemplo : OK
+   * ejemplo : NO
+* En el lenguaje dart, si agrego un archivo de codigo, siempre es en minuscula.     
+```dart
+class Ejemplo {
+  
+}
+
+void main() {
+  var obj=new Ejemplo();
+  print(obj);
+}
+```
