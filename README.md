@@ -64,3 +64,46 @@ void main() {
   print(obj);
 }
 ```
+## ejemplo lista usando mapas
+
+```dart
+class Producto {
+  // campo
+  // en dart no se definen propiedades y los campos son publicos
+  String nombre;
+  int precio;
+  // constructor
+  Producto(this.nombre,this.precio);
+}
+
+void main() {
+  // tabla de productos
+  // nombre | precio
+  // --------------------
+  var productos=[
+    {"nombre":"cocacola","precio":100},
+    {"nombre":"fanta","precio":200},
+    {"nombre":"sprite","precio":400},
+  ];
+  print(productos);
+  List<Map<String,dynamic>> productos2=[
+    {"nombre":"cocacola","precio":100},
+    {"nombre":"fanta","precio":200},
+    {"nombre":"sprite","precio":400},
+  ];  
+  print(productos2);
+  var prod1=Producto("cocacola",100);
+  var prod2=Producto("fanta",200);
+  var prod3=Producto("sprite",300);
+  var productos3=[prod1,prod2,prod3];
+  print(productos3);
+  List<Producto> productos4=[
+    Producto("cocacola",100),
+    Producto("fanta",200),
+    Producto("sprite",300)
+  ];
+  print(productos4);
+  
+}
+```
+
